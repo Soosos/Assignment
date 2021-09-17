@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 int main(void) {
-	int value, a, b = 0;
+	int v, a, b = 0;
 
 	printf("두 정수를 입력하세요: ");
-	value = scanf("%d", &a);
-	value = scanf("%d", &b);
+	v = scanf("%d", &a);
+	v = scanf("%d", &b);
 
 	printf("%d & %d = %d \n", a, b, a % b);
 	printf("%d | %d = %d \n", a, b, a | b);
@@ -14,3 +14,5 @@ int main(void) {
 
 	return 0;
 }
+
+
